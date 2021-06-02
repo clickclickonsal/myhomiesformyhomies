@@ -5,8 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Homies for my Homies</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Architects+Daughter|Roboto&subset=latin,devanagari"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
   </head>
-  <body>
-    Coming soon
+  <body class="welcome">
+    <span id="splash-overlay" class="splash"></span>
+    <span id="welcome" class="z-depth-4"></span>
+
+    <header class="navbar-fixed">
+      <nav class="row deep-purple darken-3">
+        <div class="col s12">
+          <ul class="right">
+            <li class="right">
+              <a
+                href="https://github.com/clickclickonsal/myhomiesformyhomies"
+                target="_blank"
+                class="fa fa-github-square fa-2x waves-effect waves-light"
+                ><span class="icon-text"></span
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="valign-wrapper">
+      <span class="container grey-text text-lighten-1">
+        <p class="flow-text">Welcome to</p>
+        <h1 class="title grey-text text-lighten-3">My Homies for My Homies</h1>
+
+        <blockquote class="flow-text">
+          A place to help you decide on choosing your dream home.
+        </blockquote>
+      </span>
+    </main>
+
+    <footer class="page-footer deep-purple darken-3">
+      <div class="footer-copyright deep-purple darken-3">
+        <div class="container">
+          <time datetime="{{ site.time | date: '%Y' }}"
+            >&copy; 2021 MyHomiesForMyHomies™️</time
+          >
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
