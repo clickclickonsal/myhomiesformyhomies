@@ -65,7 +65,7 @@ body.welcome {
   animation: moveIn 2s 3.1s ease forwards;
 }
 
-blockquote {
+.flow-text {
   border-left-color: darkgray;
 }
 
